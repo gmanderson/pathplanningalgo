@@ -7,17 +7,19 @@ The forward search algorithm was implemented from provided psuedocode and the pa
 
 
 To compile:
-g++ -Wall -Werror -std=c++14 -O -o pathplanalgo Node.cpp NodeList.cpp PathSolver.cpp main.cpp
+
+`g++ -Wall -Werror -std=c++14 -O -o pathplanalgo Node.cpp NodeList.cpp PathSolver.cpp main.cpp`
 
 To run:
-./assign1 < ./tests/testname.env
+
+`./assign1 < ./tests/testname.env`
 
 This will print the maze to the terminal.
 
 Alternatively:
 
-./assign1 < ./tests/testname.env > actual.out
+`./assign1 < ./tests/testname.env > actual.out`
 
 This will output the terminal to a file where it can be inspected, or the diff command can be run to compare output versus expected output.
 
-diff actual.out ./tests/testname.out
+`diff actual.out ./tests/testname.out`
